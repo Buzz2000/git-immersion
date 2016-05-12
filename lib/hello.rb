@@ -1,5 +1,4 @@
-#Default is "World"
-#Author: Batzion Nissenboim (bazibox@gmail.com)
-name = ARGV.first || "World"
+puts "What's your name"
+my_name = gets.strip
 
-puts "Hello, #{ARGV.name}!"
+puts "Hello, #{my_name}!"
